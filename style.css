@@ -596,3 +596,25 @@ a {
     padding: 28px;
   }
 }
+
+.portfolio-note {
+  text-align: center;
+}
+
+.watch-btn {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 16px;
+  padding: 12px 20px;
+  border-radius: 999px;
+  background: linear-gradient(135deg, #f7c948, #ff3d5a);
+  color: #111;
+  font-weight: 800;
+  transition: 0.3s ease;
+}
+
+.watch-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 16px 35px rgba(247, 201, 72, 0.25);
+}
